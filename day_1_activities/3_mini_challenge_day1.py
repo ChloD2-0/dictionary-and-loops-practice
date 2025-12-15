@@ -56,5 +56,15 @@
         #    - Do NOT add the student
         #    - Display an error message saying the CPS ID is already taken
 
+import student_data2
 
+students2 = student_data2.students
+
+FName = input("What is your first name: ")
+LName = input("What is your last Name: ")
+MName = input("What is your Middle Name: ")
+HR = input("What is your Homeroom: ")
+Email = input("What is your school email?: ")
+
+# students.append[FName, LName, MName, HR, Email]
 
